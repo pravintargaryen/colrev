@@ -148,5 +148,5 @@ class GenAIPrescreen(base_classes.PrescreenPackageBaseClass):
             msg="Pre-screen (GenAI)",
             manual_author=False,
         )
-
+        print(records)            
         return records
